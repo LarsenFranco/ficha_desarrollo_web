@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 
 a {
-    text-decoration: none;
-    color: rgb(13, 4, 134);
+  text-decoration: none;
+  color: rgb(13, 4, 134);
 }
 
 body {
@@ -35,42 +35,41 @@ nav h1 {
 }
 
 .information ul {
-    list-style: none;
-    padding: 1rem;
+  list-style: none;
+  padding: 1rem;
 }
 
 .information ul li {
-    padding: 10px;
+  padding: 10px;
 }
 
 .info_link:hover {
-    border-bottom: 0.5px solid  rgb(13, 4, 134);
+  border-bottom: 0.5px solid rgb(13, 4, 134);
 }
 
 footer {
-    border-top: 2px solid black;
-    display: flex;
-    background-color: #e4c59e;
-    position: fixed;
-    justify-content: center;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+  border-top: 2px solid black;
+  display: flex;
+  background-color: #e4c59e;
+  position: fixed;
+  justify-content: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-top: 2rem;
 }
 footer a {
-    text-align: center;
+  text-align: center;
 }
 footer img {
-    width: 40%;
+  width: 40%;
 }
 
-
 @keyframes fadeIn {
-    0% {
-      transform: scale(1);
-    }
-    100% {
-      transform: scale(1.2);
-    }
+  0% {
+    transform: scale(1);
   }
-  
+  100% {
+    transform: scale(1.2);
+  }
+}
